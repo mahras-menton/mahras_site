@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Start*/
+
+#Maras {
+    display: flex;
+    align-items: center;
+    
+    justify-content: left;
+    background: #fff;
+    border: 2px solid rgb(139, 0, 0, 0.7);
+    border-right-width: 0px;
+    padding: 0 32px;
+    
+    padding-left: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    z-index: 1000;
+    overflow: hidden; /* Ensures image doesn't overflow */
+    width: 40%;
+    
+}
+
+.bouton {
+    background-color: #DC3434; /* Button background color */
+    color: #fff;
+    border: none; /* Remove default border */
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.bouton :hover {
+    color: #345AB2; /* Change text color on hover */
+    font-size: 30px; /* Increase font size on hover */
+    transition-duration: 0.5s;
+}
+
+#Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0;
+    border: 2px solid rgb(139, 0, 0, 0.7);
+    padding: 0 5vw;
+    background: #DC3434;
+    color: #E6D3D3;
+    z-index: 1000;
+    height: 100%;
+   
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.header {
+    display: inline-block;
+    /*margin-right: 20px;  Optional: adds space between sections */
+    vertical-align: top;
+ /* Adjust font size as needed */
+}
+
+#Menu > .header {
+    margin: 0 12px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: auto;;
+    flex-basis: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+#Menu > .header:first-child {
+    text-align: left;
+}
+#Menu > .header:last-child {
+    text-align: right;
+}
+
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100vw;
+    height: 80px;           /* Adjust as needed */
+    box-sizing: border-box;
+    position: fixed;        /* Make the whole header stick to the top */
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+/*Header End*/
+
+
+
+#Maras_Full {
+    font-size: 2.2vw; /* You can adjust this value as needed */
+    line-height: 300%;
+    background: /* rgb(220, 52, 52, 0)*/ rgb(255, 255, 255, 0.8);
+    margin-top: -16px; 
+    padding-top: 8px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+
+.objectif {
+    font-size: 1.8vw;
+
+
+}
+
+#Maras_Logo {
+    position: relative;
+    display: flex;
+    flex: 1;
+    background-image: url('pictures/MAHRAS_LOGO.png'); /* Replace with your image path */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: cover; /* Ensure the image covers the div */
+    border-color: red;
+    border-radius: 80%;
+    border-style: solid;
+    left: 76vw;
+    top: -22vw;
+    max-width: 18vw; /* Adjust width as needed */
+    height: 18vw; /* Adjust height as needed */
+    text-indent: -9999px; /* Hides text content */
+}
+
+#not_header {
+    margin-top: 90px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 58vw;
+    background-image: url('pictures/image_de_fond1.jpg'); /* Replace with your image path */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: 220%; /* Ensure the image covers the div */
+    z-index: -1; /* Ensure it stays behind other content */;
+    
+}
+
+#not_header_histoire {
+    margin-top: 90px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 58vw;
+    background-image: url('pictures/Harki2.png'); /* Replace with your image path */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: 220%; /* Ensure the image covers the div */
+    z-index: -1; /* Ensure it stays behind other content */
+}
+
+#total_accueil_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background:rgb(220, 52, 52, 0.8);
+    
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+    
+}
+
+#accueil_content {
+    position: relative;
+    display: flex;
+    
+    padding: 20px;
+    
+    flex: 1;
+    width: 80%;
+    justify-content: center;
+    border-color: #0046a5;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    background: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1001;
+    font-size: 1.8vw; /* Adjust font size as needed */
+    line-height: 200%;
+   
+}
+
+
+#accueil-content > p {
+    color: #000;
+} 
+
+#fatima {
+    position: relative;
+    display: flex;
+    flex: 1;
+    background-image: url('pictures/fatima.jpg'); /* Replace with your image path */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: cover; /* Ensure the image covers the div */
+    border-color: red;
+    border-style: solid;
+    border-radius: 80%;
+    max-width: 20%;
+    height: 20vw; /* Adjust height as needed */
+    text-indent: -9999px; /* Hides text content */
+    margin: 16px 12px 12px 12px;
+    top: 4vw;
+    margin-bottom: -200px;
+}
+
+#fatima_description {
+    position: relative; 
+    display: flex; 
+    flex:1; 
+    width:70%;
+    
+    background-color: white; 
+    margin: 24px -10px 10px 10px; 
+    padding: 12px 0px 12px 12px;
+    left: 25%;
+    bottom:1vw;
+    
+    font-size: 1.8vw;
+    color: black;
+    border-color: red;
+    border-style: solid;
+    line-height: 150%;
+}
+
+/* 
+Events Assets */
+
+.event_text {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: black;
+    background-color: white;
+    margin: 12px, 0, 12px, 12px;
+    padding: 4px 0 20px 4px;
+    font-size: 1.7vw;
+    line-height: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.event_name {
+    padding: 12px 0px 12px 4px; 
+    background-color: red; 
+    font-size: 2.4vw;
+}
+
+.event_date {
+    position: relative; 
+    border-color: rgb(139, 0, 0, 0.7); 
+    border-style: solid; 
+    border-width: 2px; 
+    padding: 6px 0px 6px 6px; 
+    background-color: #DC3434; 
+    font-size: 2vw;
+}
+
+#event_1_picture {
+    position: relative;
+    display: flex;
+    flex: 1;
+    background-image: url('pictures/05_juillet_1.jpg'); /* Replace with your image path */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: cover; /* Ensure the image covers the div */
+    border-color: red;
+    border-style: solid;
+    max-width: 100%; /* Adjust width as needed */
+    height: 40vw; /* Adjust height as needed */
+    text-indent: -9999px; /* Hides text content */
+}
+
+/* Contact assets */
+
+#map {
+    display: flex;
+    position: relative;
+    margin: auto;
+    flex: 1;
+    width: 80%;
+    height: 700px;
+    margin-bottom: 10px;
+}
+
+
+/* Donate Assets*/
+
+#donate_logo {
+    position: relative;
+    display: flex;
+    flex: 1;
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(220, 52, 52, 0.45);
+    border-style: solid;
+    border-radius: 70%;
+    top: 100px;
+}
+
+#not_header_donation {
+    background-color:#d6ebf2;
+    padding-bottom: 120px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 6px;
+}
+
+#donate_button {
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+    padding: 10px;
+    top: 20px;
+    border-color: black;
+    border-style: solid;
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+#donate_button :hover {
+    color: #345AB2;
+    font-size: 40px;
+    transition: 3s;
+}
+
+
+/* footer assets */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width: 100%;
+    background-color: #E9E1E1;
+    color: black;
+    text-align: left;
+    opacity: 0.5;
+    margin: -10px;
+    padding-right: 10px;
+}
+
+#footer > p {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+    margin: -2px 0;
+}
+
+.material-icons {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    font-size: 20px
+}
+
+@media (min-width: 950px) {
+    #Maras_Logo {
+        top: -21vw; /* Adjust position as needed */
+    }
+}
+@media (min-width: 1500px) {
+    #Menu > .header {
+        font-size: 14px;
+    }
+
+    #top {
+        height: 75px;
+    }
+
+    .objectif {
+        font-size: 1.4vw;
+    }
+
+    #accueil_content {
+        width: 60%;
+        font-size: 1.4vw; /* Adjust font size as needed */
+        line-height: 170%;
+        /*margin: 20px auto;*/
+        border-width: 4px;
+    }
+
+    #Maras_Logo {
+        top: -20.5vw
+    }
+
+    #donate_logo {
+        width: 20%;
+    }
+
+    .event_text {
+        font-size: 1.4vw;
+        line-height: 170%;
+    }
+
+    .event_name {
+        font-size: 1.7vw;
+    }
+
+    .event_date {
+        font-size: 1.5vw;
+    }
+
+    #fatima_description {
+        font-size: 1.5vw;
+        top: -10vw
+    }
+}
+
+
+
