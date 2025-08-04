@@ -375,7 +375,7 @@ Events Assets */
 
 
 
-@media only screen and (max-width: 950px) and (min-width: 600px){
+@media only screen and (max-width: 950px) and (min-width: 700px){
    *{
     flex-direction: column;
    }
@@ -385,16 +385,12 @@ Events Assets */
     padding-right: 450px;
     margin-top: -10px;
     width: 100%;
-
-    
-    
    }
 
    #top {
     margin-bottom: 100px;
     margin-left: -1vw;
-    width: 110%
-    
+    width: 110%;    
    }
 
    button {
@@ -505,7 +501,7 @@ Events Assets */
 }
 
 
-@media only screen and (max-wdith: 600px) {
+@media only screen and (max-wdith: 700px) {
    *{
     flex-direction: column;
    }
@@ -515,16 +511,12 @@ Events Assets */
     padding-right: 450px;
     margin-top: -10px;
     width: 100%;
-
-    
-    
    }
 
    #top {
     margin-bottom: 100px;
     margin-left: -6vw;
-    width: 110%
-    
+    width: 110%;
    }
 
    button {
@@ -562,6 +554,7 @@ Events Assets */
     margin-bottom: -20px;
    }
 }
+
 
 
 
