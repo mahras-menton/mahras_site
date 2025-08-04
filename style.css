@@ -433,12 +433,60 @@ Events Assets */
 }
 
 @media(max-wdith: 600px) {
-    #top {
-        margin-left: -6vw;
-    }
+    *{
+    flex-direction: column;
+   }
 
-    button {
-        font-size: 4px;
+   #Menu {
+    flex-direction: row;
+    padding-right: 450px;
+    margin-top: -10px;
+    width: 100%;
+
+    
+    
+   }
+
+   #top {
+    margin-bottom: 100px;
+    margin-left: -6vw;
+    width: 110%
+    
+   }
+
+   button {
+    font-size: 4px;
+   }
+
+   #map {
+    height: 60vw;
+   }
+
+   #Maras_Logo {
+    margin-top: -8px;
+   }
+
+   #fatima_description {
+    margin-top: 106px;
+    width: 68%;
+   }
+
+   #footer {
+    padding-bottom: 40px;
+   }
+
+   #event_1 {
+    position: relative;
+    margin-left: -8px;
+   }
+
+   #adhesion_text{
+    margin: 20px;
+   }
+
+    #event_full {
+        top: -20px;
+        margin-bottom: -20px;
     }
 }
 
@@ -510,6 +558,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
