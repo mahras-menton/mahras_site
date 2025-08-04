@@ -436,6 +436,10 @@ Events Assets */
     #top {
         margin-left: -6vw;
     }
+
+    button {
+        font-size: 6px;
+    }
 }
 
 @media (min-width: 950px) {
@@ -506,6 +510,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
