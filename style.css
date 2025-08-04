@@ -432,7 +432,7 @@ Events Assets */
     }
 }
 
-@media(max-wdith: 450px) {
+@media(max-wdith: 600px) {
     #top {
         margin-left: -6vw;
     }
@@ -510,6 +510,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
