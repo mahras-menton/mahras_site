@@ -432,6 +432,12 @@ Events Assets */
     }
 }
 
+@media(max-wdith: 450px) {
+    #top {
+        margin-left: -6vw;
+    }
+}
+
 @media (min-width: 950px) {
     #Maras_Logo {
         top: -21vw; /* Adjust position as needed */
@@ -500,6 +506,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
