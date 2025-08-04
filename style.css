@@ -432,8 +432,8 @@ Events Assets */
     }
 }
 
-@media(max-wdith: 600px) {
-    *{
+@media (max-wdith: 600px) {
+   *{
     flex-direction: column;
    }
 
@@ -484,10 +484,10 @@ Events Assets */
     margin: 20px;
    }
 
-    #event_full {
-        top: -20px;
-        margin-bottom: -20px;
-    }
+   #event_full {
+    top: -20px;
+    margin-bottom: -20px;
+   }
 }
 
 @media (min-width: 950px) {
@@ -558,6 +558,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
