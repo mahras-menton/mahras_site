@@ -374,7 +374,7 @@ Events Assets */
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 950px) and (min-width: 600px) {
    *{
     flex-direction: column;
    }
@@ -510,6 +510,7 @@ Events Assets */
         top: -10vw
     }
 }
+
 
 
 
